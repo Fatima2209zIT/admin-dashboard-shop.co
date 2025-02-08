@@ -2,7 +2,7 @@
 import Swal from "sweetalert2";
 import { client } from "../../../sanity/lib/client";
 import { useEffect, useState } from "react";
-import ProtectedRoute from "@/app/components/protected/page";
+import ProtectedRoute from "../../components/ProtectedRoute";
 import { FaTrash, FaEye, FaTruck, FaCheckCircle } from "react-icons/fa";
 import Image from "next/image";
 import { urlFor } from "../../../sanity/lib/image";
